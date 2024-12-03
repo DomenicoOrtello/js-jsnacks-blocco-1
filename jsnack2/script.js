@@ -9,7 +9,7 @@ const nomeUtente = prompt("Qual è il tuo nome?");
 // Variabile per determinare se l'utente è invitato
 let invitato = false;
 
-// Ciclo per controllare se il nome è presente nell'array
+// Ciclo di controllo per vedere se il nome è presente nell'array
 for (let i = 0; i < invitati.length; i++) {
     if (invitati[i].toLowerCase() === nomeUtente.toLowerCase()) {
         invitato = true;
