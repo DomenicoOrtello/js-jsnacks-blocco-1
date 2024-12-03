@@ -11,7 +11,7 @@ let invitato = false;
 
 // Ciclo di controllo per vedere se il nome è presente nell'array
 for (let i = 0; i < invitati.length; i++) {
-    if (invitati[i].toLowerCase() === nomeUtente.toLowerCase()) {
+    if (invitati[i] === nomeUtente) {
         invitato = true;
     }
 }
